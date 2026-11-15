@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "minimumNeovim": "0.12.0",
+  "treeSitterCli": "0.27.2",
+  "winget": {
+    "git": "Git.Git",
+    "node": "OpenJS.NodeJS.LTS",
+    "python": "Python.Python.3.14",
+    "msys2": "MSYS2.MSYS2",
+    "vcRuntime": "Microsoft.VCRedist.2015+.x64",
+    "buildTools": "Microsoft.VisualStudio.2022.BuildTools"
+  },
+  "msys2Packages": [
+    "mingw-w64-clang-x86_64-neovim",
+    "mingw-w64-clang-x86_64-clang",
+    "mingw-w64-clang-x86_64-clang-tools-extra",
+    "mingw-w64-clang-x86_64-lld",
+    "mingw-w64-clang-x86_64-cmake",
+    "mingw-w64-clang-x86_64-ninja",
+    "mingw-w64-clang-x86_64-curl",
+    "mingw-w64-clang-x86_64-glslang"
+  ],
+  "archives": [
+    {
+      "name": "fd",
+      "repo": "sharkdp/fd",
+      "tag": "v10.5.2",
+      "exe": "fd.exe",
+      "target": "bin",
+      "url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-v10.5.2-x86_64-pc-windows-msvc.zip",
+      "sha256": "7edac75ef96b7e9a01ebb251a21ee86ea365a09adcfb865f1ec3346a906153b6"
+    },
+    {
+      "name": "ripgrep",
+      "repo": "BurntSushi/ripgrep",
+      "tag": "15.2.0",
+      "exe": "rg.exe",
+      "target": "bin",
+      "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip",
+      "sha256": "71b2fef860abe467217a538ff31de02f5258807c0129f771846f87bd029aafc5"
+    },
+    {
+      "name": "lazygit",
+      "repo": "jesseduffield/lazygit",
+      "tag": "v0.66.3",
+      "exe": "lazygit.exe",
+      "target": "bin",
+      "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/lazygit_0.66.3_windows_x86_64.zip",
+      "sha256": "a76fe17339fd387c20addc09060f07c240e4b20a9f55fee4ad7c86a251c0741e"
+    },
+    {
+      "name": "shader-language-server",
+      "repo": "antaalt/shader-sense",
+      "tag": "v1.6.2",
+      "exe": "shader-language-server.exe",
+      "target": "shader-language-server",
+      "url": "https://github.com/antaalt/shader-sense/releases/download/v1.6.2/shader-language-server-x86_64-pc-windows-msvc.zip",
+      "sha256": "df09e2b5de33a03c25e40e592dc03f93f3fcfb7f8a7d2eb2bdf1e5f5cfd96d4e"
+    },
+    {
+      "name": "font",
+      "repo": "ryanoasis/nerd-fonts",
+      "tag": "v3.4.0",
+      "exe": "FiraCodeNerdFontMono-Regular.ttf",
+      "target": "font",
+      "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip",
+      "sha256": null,
+      "checksumUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/SHA-256.txt"
+    }
+  ],
+  "mason": {
+    "cmakelang": "0.6.13",
+    "cmakelint": "1.4.3",
+    "codelldb": "v1.12.3",
+    "debugpy": "1.8.22",
+    "lua-language-server": "3.19.2",
+    "neocmakelsp": "v0.12.0",
+    "pyright": "1.1.414",
+    "ruff": "0.17.5",
+    "shfmt": "v3.14.1",
+    "slang": "v2026.22",
+    "stylua": "v2.6.0"
+  }
+}

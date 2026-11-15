@@ -1,0 +1,7 @@
+.cache/
+.test-work/
+logs/
+*.log
+*.bak
+config/nvim/lua/config/local.lua
+config/nvim/lazyvim.local.json
